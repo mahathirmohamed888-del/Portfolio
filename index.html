@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== Page title & SEO ===== -->
+  <title>Mahathir Mohamed | AI-Enabled Data Analyst / Business Analyst</title>
+  <meta name="description" content="Professional portfolio of Mahathir Mohamed — AI-enabled Data Analyst and Business Analyst focused on data analytics, business analytics, sales analytics, automation, supply chain, logistics, and freight forwarding.">
+  <meta name="author" content="Mahathir Mohamed">
+  <meta name="theme-color" content="#0A3D62">
+
+  <!-- ===== Open Graph (how the link looks when shared on LinkedIn, WhatsApp, etc.) =====
+       After you publish the site, replace the og:url and og:image values with FULL web addresses,
+       e.g. https://your-username.github.io/portfolio/assets/images/profile.jpg -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mahathir Mohamed | AI-Enabled Data Analyst / Business Analyst">
+  <meta property="og:description" content="Data analytics, business analytics, sales analytics, automation, supply chain, logistics and freight forwarding.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ===== Favicon (the small icon in the browser tab) ===== -->
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- ===== Fonts (Google Fonts) ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- ===== Styles & scripts ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Tells the CSS that JavaScript is running (used for reveal animations) -->
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ===== Page loader (shown briefly while the page loads) ===== -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__mark">MM</div>
+    <div class="loader__bar"><span></span></div>
+  </div>
+
+  <!-- Keyboard users can jump straight to content -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- =========================================================
+       1. NAVIGATION
+       ========================================================= -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav__logo" aria-label="Mahathir Mohamed — back to top">
+        <span class="nav__logo-mark">MM</span>
+        <span class="nav__logo-text">Mahathir Mohamed</span>
+      </a>
+
+      <div class="nav__menu" id="navMenu">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#home" data-link="home">Home</a></li>
+          <li><a class="nav__link" href="#about" data-link="about">About</a></li>
+          <li><a class="nav__link" href="#experience" data-link="experience">Experience</a></li>
+          <li><a class="nav__link" href="#skills" data-link="skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects" data-link="projects">Projects</a></li>
+          <li><a class="nav__link" href="#journey" data-link="journey">Journey</a></li>
+          <li><a class="nav__link" href="#contact" data-link="contact">Contact</a></li>
+        </ul>
+        <!-- The small sliding line under the active link -->
+        <span class="nav__indicator" aria-hidden="true"></span>
+      </div>
+
+      <!-- Hamburger button (only visible on mobile) -->
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- =========================================================
+         2. HERO
+         ========================================================= -->
+    <section class="hero" id="home" data-nav="home">
+      <!-- Floating data points (drawn by JavaScript) -->
+      <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+
+        <!-- Left: text -->
+        <div class="hero__content">
+          <p class="eyebrow reveal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Chennai, India
+          </p>
+
+          <h1 class="hero__title reveal" style="--delay:.08s">
+            <span class="hero__name">Mahathir Mohamed</span>
+            <span class="hero__role">AI-Enabled Data Analyst <span class="hero__slash">/</span> Business Analyst</span>
+          </h1>
+
+          <ul class="hero__tools reveal" style="--delay:.16s" aria-label="Core tools">
+            <li>Power BI</li>
+            <li>Excel</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Power Automate</li>
+          </ul>
+
+          <p class="hero__intro reveal" style="--delay:.24s">
+            I work at the intersection of data analytics, business performance, automation, and supply chain operations — using data and AI-enabled tools to turn business information into meaningful insights and practical solutions.
+          </p>
+
+          <div class="hero__actions reveal" style="--delay:.32s">
+            <a class="btn btn--primary" href="#projects">
+              View My Work
+              <svg class="icon btn__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <!-- Put your CV at: assets/resume/Mahathir-Mohamed-Resume.pdf -->
+            <a class="btn btn--ghost" href="assets/resume/Mahathir-Mohamed-Resume.pdf" download>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: photo with floating analytical elements -->
+        <div class="hero__visual reveal" style="--delay:.1s" id="heroVisual">
+          <div class="hero__stage" id="heroStage">
+
+            <!-- Soft geometric ring (decorative) -->
+            <div class="orbit" aria-hidden="true"><span class="orbit__dot"></span></div>
+
+            <!-- Navy panel behind the photo -->
+            <div class="layer panel-back" data-depth="8" aria-hidden="true"></div>
+            <!-- Glass panel -->
+            <div class="layer panel-glass" data-depth="14" aria-hidden="true"></div>
+
+            <!-- ===== YOUR PHOTO =====
+                 Save your photo as: assets/images/profile.jpg
+                 The photo is only cropped by the frame (object-fit: cover) — it is NOT edited.
+                 To move the crop up/down, change "object-position" in css/style.css (.photo-frame img). -->
+            <figure class="layer photo-frame" data-depth="18" id="photoFrame">
+              <img src="assets/images/profile.jpg"
+                   alt="Portrait of Mahathir Mohamed, AI-Enabled Data Analyst and Business Analyst"
+                   width="600" height="750" fetchpriority="high">
+              <span class="photo-fallback" aria-hidden="true">MM</span>
+            </figure>
+
+            <!-- Floating card: sales trend -->
+            <div class="layer float float--a" data-depth="34" aria-hidden="true">
+              <div class="float__card">
+                <div class="float__head"><span class="float__dot"></span>Sales Performance</div>
+                <svg class="spark" viewBox="0 0 120 40">
+                  <path class="spark__area" d="M0 34 L15 30 L30 31 L45 22 L60 25 L75 16 L90 18 L105 9 L120 11 L120 40 L0 40Z"/>
+                  <path class="spark__line" d="M0 34 L15 30 L30 31 L45 22 L60 25 L75 16 L90 18 L105 9 L120 11"/>
+                  <circle cx="120" cy="11" r="3" class="spark__end"/>
+                </svg>
+                <div class="float__sub">Monthly trend</div>
+              </div>
+            </div>
+
+            <!-- Floating card: enquiry funnel -->
+            <div class="layer float float--b" data-depth="26" aria-hidden="true">
+              <div class="float__card">
+                <div class="float__head">Enquiry → Booking</div>
+                <div class="funnel">
+                  <span style="--w:100%">Enquiries</span>
+                  <span style="--w:72%">Conversion</span>
+                  <span style="--w:48%">Bookings</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating card: KPI ring -->
+            <div class="layer float float--c" data-depth="30" aria-hidden="true">
+              <div class="float__card float__card--row">
+                <svg class="ring" viewBox="0 0 36 36">
+                  <circle cx="18" cy="18" r="14" class="ring__bg"/>
+                  <circle cx="18" cy="18" r="14" class="ring__fg"/>
+                </svg>
+                <div>
+                  <div class="float__head">KPI Tracking</div>
+                  <div class="float__sub">By segment</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating card: SQL snippet -->
+            <div class="layer float float--d" data-depth="22" aria-hidden="true">
+              <div class="float__card float__card--code">
+                <div class="code__bar"><i></i><i></i><i></i><span>query.sql</span></div>
+                <code><b>SELECT</b> segment,<br>&nbsp;&nbsp;<b>COUNT</b>(enquiry_id)<br><b>GROUP BY</b> segment;</code>
+              </div>
+            </div>
+
+            <!-- Floating pill: AI-assisted -->
+            <div class="layer float float--e" data-depth="40" aria-hidden="true">
+              <div class="float__pill">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>
+                AI-assisted workflow
+              </div>
+            </div>
+
+            <!-- Small 3D cube (decorative) -->
+            <div class="layer cube-wrap" data-depth="46" aria-hidden="true">
+              <div class="cube">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+
+    <!-- =========================================================
+         3. ABOUT ME
+         ========================================================= -->
+    <section class="section" id="about" data-nav="about">
+      <div class="container about">
+        <div class="about__text">
+          <div class="section-head reveal">
+            <p class="section-label">About</p>
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about__body reveal" style="--delay:.08s">
+            <p class="about__lead">I am an AI-enabled Data Analyst and Business Analyst with experience in sales analytics, business performance reporting, automation, and supply chain operations.</p>
+            <p>My work focuses on transforming business and operational data into structured insights that support decision-making and improve reporting efficiency.</p>
+            <p>I work with Power BI, Excel, SQL, Python, and Power Automate, while exploring AI-assisted approaches to analytics, data transformation, reporting, and automation.</p>
+            <p>With an academic background in Accounting &amp; Finance and Logistics &amp; Supply Chain Management, I combine analytical thinking, business understanding, and domain knowledge in supply chain, logistics, and freight forwarding.</p>
+          </div>
+        </div>
+
+        <aside class="about__side">
+          <!-- Three highlight cards -->
+          <div class="highlight reveal" data-tilt style="--delay:.1s">
+            <span class="highlight__icon">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            </span>
+            <div>
+              <h3>Business Analytics</h3>
+              <p>Performance reporting and structured business insights</p>
+            </div>
+          </div>
+          <div class="highlight reveal" data-tilt style="--delay:.18s">
+            <span class="highlight__icon">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>
+            </span>
+            <div>
+              <h3>Sales Analytics</h3>
+              <p>Enquiries, conversion, bookings and KPI tracking</p>
+            </div>
+          </div>
+          <div class="highlight reveal" data-tilt style="--delay:.26s">
+            <span class="highlight__icon">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+            </span>
+            <div>
+              <h3>Supply Chain Analytics</h3>
+              <p>Logistics and freight forwarding operations</p>
+            </div>
+          </div>
+
+          <!-- Quick facts -->
+          <dl class="facts reveal" style="--delay:.32s">
+            <div><dt>Based in</dt><dd>Chennai, India</dd></div>
+            <div><dt>Education</dt><dd>MBA — Logistics &amp; SCM</dd></div>
+            <div><dt>Industry</dt><dd>Freight forwarding</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         4. WHAT I DO
+         ========================================================= -->
+    <section class="section section--alt" id="services" data-nav="about">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-label">Focus</p>
+          <h2 class="section-title">What I Do</h2>
+        </div>
+
+        <div class="services">
+          <article class="service reveal" data-tilt style="--delay:.05s">
+            <div class="service__top">
+              <span class="service__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 5-6"/></svg></span>
+              <span class="service__num">01</span>
+            </div>
+            <h3>AI-Enabled Data Analytics</h3>
+            <p>Analyze business and operational data using Power BI, Excel, SQL, Python, and AI-assisted analytical workflows to identify trends, performance gaps, and actionable insights.</p>
+            <div class="service__art service__art--bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="service reveal" data-tilt style="--delay:.12s">
+            <div class="service__top">
+              <span class="service__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+              <span class="service__num">02</span>
+            </div>
+            <h3>Business &amp; Sales Analytics</h3>
+            <p>Build performance reports, KPI tracking, enquiry analysis, conversion analysis, and business reporting solutions to support data-driven decision-making.</p>
+            <div class="service__art service__art--funnel" aria-hidden="true"><i></i><i></i><i></i></div>
+          </article>
+
+          <article class="service reveal" data-tilt style="--delay:.19s">
+            <div class="service__top">
+              <span class="service__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.7-5.7L20 8M20 4v4h-4M20 12a8 8 0 0 1-13.7 5.7L4 16M4 20v-4h4"/></svg></span>
+              <span class="service__num">03</span>
+            </div>
+            <h3>AI-Assisted Automation</h3>
+            <p>Explore AI-assisted approaches to automate repetitive data, reporting, and business processes using Power Automate and analytics tools.</p>
+            <div class="service__art service__art--flow" aria-hidden="true"><i></i><b></b><i></i><b></b><i></i></div>
+          </article>
+
+          <article class="service reveal" data-tilt style="--delay:.26s">
+            <div class="service__top">
+              <span class="service__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></span>
+              <span class="service__num">04</span>
+            </div>
+            <h3>Supply Chain &amp; Logistics Analytics</h3>
+            <p>Apply analytical skills and business understanding to supply chain, logistics, and freight forwarding operations.</p>
+            <div class="service__art service__art--route" aria-hidden="true"><i></i><i></i><i></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         5. PROFESSIONAL EXPERIENCE
+         ========================================================= -->
+    <section class="section section--navy" id="experience" data-nav="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-label section-label--light">Experience</p>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+
+        <article class="exp reveal" style="--delay:.08s">
+          <!-- Left column: role summary -->
+          <div class="exp__aside">
+            <span class="exp__status"><span class="pulse"></span>Current role</span>
+            <h3 class="exp__title">Business Analyst / Data Analyst</h3>
+            <p class="exp__company">Freight Systems</p>
+            <p class="exp__meta">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Chennai
+            </p>
+
+            <div class="exp__path">
+              <span>Management Trainee</span>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              <span>Business / Data Analytics</span>
+            </div>
+
+            <ul class="tags tags--light" aria-label="Tools used">
+              <li>Power BI</li><li>Excel</li><li>Power Query</li><li>SQL</li><li>Python</li><li>Power Automate</li><li>Claude</li>
+            </ul>
+          </div>
+
+          <!-- Right column: description + responsibilities -->
+          <div class="exp__main">
+            <p>Working in business and sales analytics within the freight forwarding environment, with a focus on data-driven reporting, performance analysis, business insights, and process improvement.</p>
+            <p>I work with business and operational data to develop analytical reports and dashboards, track performance, identify trends, and support business decision-making.</p>
+            <p>I also explore AI-enabled approaches using tools such as Claude and Power BI to improve analytics workflows, data understanding, and reporting efficiency.</p>
+
+            <h4 class="exp__subhead">Key Responsibilities</h4>
+            <div class="exp__groups">
+              <div class="exp__group">
+                <h5>Analysis &amp; Reporting</h5>
+                <ul class="checklist">
+                  <li>Business &amp; sales performance analysis</li>
+                  <li>Enquiry, conversion &amp; booking analysis</li>
+                  <li>Weekly and monthly management reporting</li>
+                  <li>Business performance tracking</li>
+                  <li>Operational data analysis</li>
+                </ul>
+              </div>
+              <div class="exp__group">
+                <h5>Tools &amp; Data</h5>
+                <ul class="checklist">
+                  <li>Power BI dashboard development and KPI reporting</li>
+                  <li>Excel &amp; Power Query-based data transformation</li>
+                  <li>SQL-based data analysis</li>
+                  <li>Python-assisted data analysis and processing</li>
+                </ul>
+              </div>
+              <div class="exp__group">
+                <h5>AI &amp; Automation</h5>
+                <ul class="checklist">
+                  <li>AI-assisted analytics using Claude and other AI tools</li>
+                  <li>Power Automate-based process automation</li>
+                  <li>Data-driven process improvement</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         6. ANALYTICS TOOLKIT (Skills)
+         To add a skill: copy one <li class="skill">…</li> and change the text.
+         data-cat must match one of the filter buttons (bi, data, ai, cap).
+         ========================================================= -->
+    <section class="section" id="skills" data-nav="skills">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-label">Skills</p>
+          <h2 class="section-title">Analytics Toolkit</h2>
+          <p class="section-intro">The tools and capabilities I use in day-to-day analytics work.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter skills by category">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" type="button" data-filter="bi" aria-pressed="false">Business Intelligence</button>
+          <button class="filter" type="button" data-filter="data" aria-pressed="false">Data Analysis</button>
+          <button class="filter" type="button" data-filter="ai" aria-pressed="false">AI &amp; Automation</button>
+          <button class="filter" type="button" data-filter="cap" aria-pressed="false">Analytics Capabilities</button>
+        </div>
+
+        <ul class="skills" id="skillsGrid">
+          <!-- Business Intelligence -->
+          <li class="skill" data-cat="bi"><span class="skill__mono">BI</span><div><h3>Power BI</h3><p>Dashboards &amp; KPI reporting</p></div><span class="skill__cat">Business Intelligence</span></li>
+          <li class="skill" data-cat="bi"><span class="skill__mono">fx</span><div><h3>DAX</h3><p>Measures for performance reporting</p></div><span class="skill__cat">Business Intelligence</span></li>
+          <li class="skill" data-cat="bi"><span class="skill__mono">PQ</span><div><h3>Power Query</h3><p>Data shaping &amp; transformation</p></div><span class="skill__cat">Business Intelligence</span></li>
+
+          <!-- Data Analysis -->
+          <li class="skill" data-cat="data"><span class="skill__mono">XL</span><div><h3>Advanced Excel</h3><p>Analysis &amp; reporting</p></div><span class="skill__cat">Data Analysis</span></li>
+          <li class="skill" data-cat="data"><span class="skill__mono">SQL</span><div><h3>SQL</h3><p>Query-based data analysis</p></div><span class="skill__cat">Data Analysis</span></li>
+          <li class="skill" data-cat="data"><span class="skill__mono">Py</span><div><h3>Python</h3><p>Data analysis &amp; processing</p></div><span class="skill__cat">Data Analysis</span></li>
+
+          <!-- AI & Automation -->
+          <li class="skill" data-cat="ai"><span class="skill__mono">AI</span><div><h3>Claude AI</h3><p>AI-assisted analytics</p></div><span class="skill__cat">AI &amp; Automation</span></li>
+          <li class="skill" data-cat="ai"><span class="skill__mono">AA</span><div><h3>AI-Assisted Data Analysis</h3><p>Exploring &amp; interpreting data</p></div><span class="skill__cat">AI &amp; Automation</span></li>
+          <li class="skill" data-cat="ai"><span class="skill__mono">PE</span><div><h3>AI Prompt Engineering</h3><p>Structured prompts for analysis</p></div><span class="skill__cat">AI &amp; Automation</span></li>
+          <li class="skill" data-cat="ai"><span class="skill__mono">PA</span><div><h3>Power Automate</h3><p>Process automation</p></div><span class="skill__cat">AI &amp; Automation</span></li>
+
+          <!-- Analytics Capabilities -->
+          <li class="skill" data-cat="cap"><span class="skill__mono">BA</span><div><h3>Business Analytics</h3><p>Performance insights</p></div><span class="skill__cat">Capability</span></li>
+          <li class="skill" data-cat="cap"><span class="skill__mono">SA</span><div><h3>Sales Analytics</h3><p>Enquiries, conversion &amp; bookings</p></div><span class="skill__cat">Capability</span></li>
+          <li class="skill" data-cat="cap"><span class="skill__mono">KPI</span><div><h3>KPI &amp; Performance Analysis</h3><p>Tracking KPI achievement</p></div><span class="skill__cat">Capability</span></li>
+          <li class="skill" data-cat="cap"><span class="skill__mono">DT</span><div><h3>Data Transformation</h3><p>Cleaning &amp; structuring data</p></div><span class="skill__cat">Capability</span></li>
+          <li class="skill" data-cat="cap"><span class="skill__mono">MR</span><div><h3>Management Reporting</h3><p>Weekly &amp; monthly reports</p></div><span class="skill__cat">Capability</span></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         7. DOMAIN KNOWLEDGE
+         Hovering a card highlights the matching node in the diagram (data-node).
+         ========================================================= -->
+    <section class="section section--alt" id="domain" data-nav="skills">
+      <div class="container domain">
+        <div class="domain__visual reveal" aria-hidden="true">
+          <svg class="network" id="network" viewBox="0 0 400 400">
+            <circle class="network__ring" cx="200" cy="200" r="140"/>
+            <g class="network__lines">
+              <line data-node="1" x1="200" y1="200" x2="200" y2="60"/>
+              <line data-node="2" x1="200" y1="200" x2="321.2" y2="130"/>
+              <line data-node="3" x1="200" y1="200" x2="321.2" y2="270"/>
+              <line data-node="4" x1="200" y1="200" x2="200" y2="340"/>
+              <line data-node="5" x1="200" y1="200" x2="78.8" y2="270"/>
+              <line data-node="6" x1="200" y1="200" x2="78.8" y2="130"/>
+            </g>
+            <g class="network__hub">
+              <circle cx="200" cy="200" r="54"/>
+              <text x="200" y="196">Supply Chain</text>
+              <text x="200" y="213">&amp; Logistics</text>
+            </g>
+            <g class="network__nodes">
+              <g data-node="1"><circle cx="200" cy="60" r="22"/><text x="200" y="64">01</text></g>
+              <g data-node="2"><circle cx="321.2" cy="130" r="22"/><text x="321.2" y="134">02</text></g>
+              <g data-node="3"><circle cx="321.2" cy="270" r="22"/><text x="321.2" y="274">03</text></g>
+              <g data-node="4"><circle cx="200" cy="340" r="22"/><text x="200" y="344">04</text></g>
+              <g data-node="5"><circle cx="78.8" cy="270" r="22"/><text x="78.8" y="274">05</text></g>
+              <g data-node="6"><circle cx="78.8" cy="130" r="22"/><text x="78.8" y="134">06</text></g>
+            </g>
+          </svg>
+        </div>
+
+        <div class="domain__content">
+          <div class="section-head reveal">
+            <p class="section-label">Domain Knowledge</p>
+            <h2 class="section-title">Supply Chain &amp; Logistics</h2>
+            <p class="section-intro">Industry context that shapes how I read and analyse operational data.</p>
+          </div>
+
+          <ul class="domain__list">
+            <li class="domain__item reveal" data-node="1" tabindex="0" style="--delay:.02s"><span>01</span>Supply Chain Management</li>
+            <li class="domain__item reveal" data-node="2" tabindex="0" style="--delay:.06s"><span>02</span>Logistics Operations</li>
+            <li class="domain__item reveal" data-node="3" tabindex="0" style="--delay:.10s"><span>03</span>Freight Forwarding</li>
+            <li class="domain__item reveal" data-node="4" tabindex="0" style="--delay:.14s"><span>04</span>Import &amp; Export Processes</li>
+            <li class="domain__item reveal" data-node="5" tabindex="0" style="--delay:.18s"><span>05</span>Shipment Analytics</li>
+            <li class="domain__item reveal" data-node="6" tabindex="0" style="--delay:.22s"><span>06</span>Sales &amp; Operational Analytics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         8. FEATURED PROJECTS
+         Each project has a hidden <template> with its case study.
+         Clicking "View Case Study" copies that template into the popup (modal).
+         ========================================================= -->
+    <section class="section" id="projects" data-nav="projects">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-label">Projects</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-intro">Practical analytics work across reporting, automation and AI-assisted development.</p>
+        </div>
+
+        <div class="projects">
+
+          <!-- ===== PROJECT 01 ===== -->
+          <article class="project reveal" data-tilt>
+            <div class="project__visual project__visual--1" aria-hidden="true">
+              <svg viewBox="0 0 240 110">
+                <rect x="14" y="62" width="18" height="36" rx="3"/><rect x="40" y="48" width="18" height="50" rx="3"/>
+                <rect x="66" y="56" width="18" height="42" rx="3"/><rect x="92" y="36" width="18" height="62" rx="3"/>
+                <rect x="118" y="42" width="18" height="56" rx="3"/><rect x="144" y="26" width="18" height="72" rx="3"/>
+                <polyline points="23,54 49,40 75,46 101,28 127,32 153,16" class="accent"/>
+                <rect x="178" y="18" width="50" height="22" rx="5" class="kpi"/><rect x="178" y="46" width="50" height="22" rx="5" class="kpi"/><rect x="178" y="74" width="50" height="22" rx="5" class="kpi"/>
+              </svg>
+            </div>
+            <div class="project__body">
+              <div class="project__meta"><span class="project__num">01</span><span class="project__status">Professional work</span></div>
+              <h3>AI-Enabled Sales Performance Analytics</h3>
+              <p>Developed Power BI dashboards for monitoring sales performance, enquiries, conversion, bookings, and KPI achievement across business segments.</p>
+              <ul class="tags"><li>Power BI</li><li>Excel</li><li>Power Query</li><li>DAX</li><li>AI</li></ul>
+              <p class="project__label">AI-enabled approach</p>
+              <ul class="bullets">
+                <li>Used AI assistance to support analytical thinking and DAX development</li>
+                <li>Explored AI-assisted interpretation of business data</li>
+                <li>Improved the analytics development workflow using AI tools</li>
+              </ul>
+              <button class="project__btn" type="button" data-case="case-1">
+                View Case Study
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+            <template id="case-1">
+              <p class="modal__eyebrow">Project 01 · Case Study</p>
+              <h3 class="modal__title" id="modalTitle">AI-Enabled Sales Performance Analytics</h3>
+              <ul class="tags"><li>Power BI</li><li>Excel</li><li>Power Query</li><li>DAX</li><li>AI</li></ul>
+              <div class="case">
+                <div class="case__row"><h4>Problem</h4><p>Sales performance, enquiries, conversion and bookings needed to be monitored consistently across business segments, with a clear view of KPI achievement.</p></div>
+                <div class="case__row"><h4>Approach</h4><p>Prepared and shaped the source data in Excel and Power Query, built a data model in Power BI and developed DAX measures for the key performance indicators. AI assistance was used to think through analytical questions and to support DAX development.</p></div>
+                <div class="case__row"><h4>Tools</h4><p>Power BI, Excel, Power Query, DAX and AI tools.</p></div>
+                <div class="case__row"><h4>Solution</h4><p>Power BI dashboards covering sales performance, enquiries, conversion, bookings and KPI achievement, viewable by business segment.</p></div>
+                <div class="case__row"><h4>Outcome</h4><p>Created a structured view of sales performance to support regular reporting and decision-making.</p></div>
+              </div>
+            </template>
+          </article>
+
+          <!-- ===== PROJECT 02 ===== -->
+          <article class="project reveal" data-tilt style="--delay:.08s">
+            <div class="project__visual project__visual--2" aria-hidden="true">
+              <svg viewBox="0 0 240 110">
+                <rect x="10" y="38" width="44" height="34" rx="6"/><rect x="72" y="38" width="44" height="34" rx="6"/>
+                <rect x="134" y="38" width="44" height="34" rx="6"/><rect x="196" y="38" width="34" height="34" rx="6" class="kpi"/>
+                <path d="M54 55h18M116 55h18M178 55h18" class="accent"/>
+                <path d="M22 50h20M22 56h14M22 62h18M84 50h20M84 56h14M84 62h18M146 50h20M146 56h14M146 62h18" class="lines"/>
+              </svg>
+            </div>
+            <div class="project__body">
+              <div class="project__meta"><span class="project__num">02</span><span class="project__status">Professional work</span></div>
+              <h3>Automated Business Reporting</h3>
+              <p>Developed automated reporting workflows to reduce repetitive data-processing and reporting activities.</p>
+              <ul class="tags"><li>Excel</li><li>Power Query</li><li>Power Automate</li></ul>
+              <p class="project__label">Focus areas</p>
+              <ul class="chips"><li>Data extraction</li><li>Data transformation</li><li>Report preparation</li><li>File processing</li><li>Workflow automation</li></ul>
+              <button class="project__btn" type="button" data-case="case-2">
+                View Case Study
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+            <template id="case-2">
+              <p class="modal__eyebrow">Project 02 · Case Study</p>
+              <h3 class="modal__title" id="modalTitle">Automated Business Reporting</h3>
+              <ul class="tags"><li>Excel</li><li>Power Query</li><li>Power Automate</li></ul>
+              <div class="case">
+                <div class="case__row"><h4>Problem</h4><p>Recurring reports involved repetitive manual steps — extracting data, cleaning and reshaping it, preparing report files and handling files.</p></div>
+                <div class="case__row"><h4>Approach</h4><p>Mapped the repetitive steps in the reporting process, then used Power Query for data transformation and Power Automate to handle workflow and file-processing steps.</p></div>
+                <div class="case__row"><h4>Tools</h4><p>Excel, Power Query and Power Automate.</p></div>
+                <div class="case__row"><h4>Solution</h4><p>Automated reporting workflows covering data extraction, data transformation, report preparation and file processing.</p></div>
+                <div class="case__row"><h4>Outcome</h4><p>Established a more consistent and repeatable reporting workflow with fewer manual steps.</p></div>
+              </div>
+            </template>
+          </article>
+
+          <!-- ===== PROJECT 03 ===== -->
+          <article class="project reveal" data-tilt>
+            <div class="project__visual project__visual--3" aria-hidden="true">
+              <svg viewBox="0 0 240 110">
+                <rect x="12" y="14" width="104" height="82" rx="8"/>
+                <path d="M24 32h40M24 44h64M24 56h30M24 68h54M24 80h36" class="lines"/>
+                <rect x="128" y="14" width="100" height="82" rx="8" class="kpi"/>
+                <path d="M138 34h80M138 50h80M138 66h80M138 82h80M170 26v64M200 26v64" class="grid"/>
+                <path d="M68 32h10" class="accent"/>
+              </svg>
+            </div>
+            <div class="project__body">
+              <div class="project__meta"><span class="project__num">03</span><span class="project__status project__status--live">In progress</span></div>
+              <h3>SQL &amp; Python Data Analytics</h3>
+              <p>Developing practical analytical workflows using SQL and Python, supported by AI-assisted coding and problem-solving approaches.</p>
+              <ul class="tags"><li>SQL</li><li>Python</li><li>AI</li></ul>
+              <p class="project__label">Focus areas</p>
+              <ul class="chips"><li>Data extraction</li><li>Data cleaning</li><li>Data analysis</li><li>Query development</li><li>Python-based analysis</li><li>AI-assisted coding</li></ul>
+              <button class="project__btn" type="button" data-case="case-3">
+                View Case Study
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+            <template id="case-3">
+              <p class="modal__eyebrow">Project 03 · Case Study</p>
+              <h3 class="modal__title" id="modalTitle">SQL &amp; Python Data Analytics</h3>
+              <ul class="tags"><li>SQL</li><li>Python</li><li>AI</li></ul>
+              <div class="case">
+                <div class="case__row"><h4>Problem</h4><p>Some analysis needs more flexibility than spreadsheets comfortably provide — pulling specific data, cleaning it and working through it in a repeatable way.</p></div>
+                <div class="case__row"><h4>Approach</h4><p>Writing SQL queries for data extraction and analysis, and using Python for data cleaning and processing. AI-assisted coding supports learning, debugging and problem-solving along the way.</p></div>
+                <div class="case__row"><h4>Tools</h4><p>SQL, Python and AI tools.</p></div>
+                <div class="case__row"><h4>Solution</h4><p>A growing set of practical workflows for data extraction, cleaning, analysis and query development.</p></div>
+                <div class="case__row"><h4>Outcome</h4><p>Ongoing work — building a structured, repeatable approach to SQL- and Python-based analysis to support reporting and decision-making.</p></div>
+              </div>
+            </template>
+          </article>
+
+          <!-- ===== PROJECT 04 ===== -->
+          <article class="project reveal" data-tilt style="--delay:.08s">
+            <div class="project__visual project__visual--4" aria-hidden="true">
+              <svg viewBox="0 0 240 110">
+                <path d="M60 55L120 25M60 55l60 30M120 25l60 30M120 85l60-30M120 25v60" class="lines"/>
+                <rect x="36" y="41" width="48" height="28" rx="6"/>
+                <rect x="96" y="12" width="48" height="26" rx="6"/><rect x="96" y="72" width="48" height="26" rx="6"/>
+                <rect x="156" y="41" width="48" height="28" rx="6" class="kpi"/>
+                <circle cx="120" cy="55" r="5" class="dot"/>
+              </svg>
+            </div>
+            <div class="project__body">
+              <div class="project__meta"><span class="project__num">04</span><span class="project__status project__status--live">Exploration</span></div>
+              <h3>AI-Assisted Power BI Analytics</h3>
+              <p>Explored AI-assisted interaction with Power BI to support semantic model understanding, analytical development, and data-driven workflows.</p>
+              <ul class="tags"><li>Power BI</li><li>Claude AI</li><li>MCP</li></ul>
+              <p class="project__label">Focus areas</p>
+              <ul class="chips"><li>Power BI semantic models</li><li>Claude AI</li><li>MCP</li><li>AI-assisted analytics</li><li>AI-supported development workflows</li></ul>
+              <button class="project__btn" type="button" data-case="case-4">
+                View Case Study
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+            <template id="case-4">
+              <p class="modal__eyebrow">Project 04 · Case Study</p>
+              <h3 class="modal__title" id="modalTitle">AI-Assisted Power BI Analytics</h3>
+              <ul class="tags"><li>Power BI</li><li>Claude AI</li><li>MCP</li></ul>
+              <div class="case">
+                <div class="case__row"><h4>Problem</h4><p>Understanding a Power BI semantic model — its tables, relationships and measures — and developing on top of it can take considerable time.</p></div>
+                <div class="case__row"><h4>Approach</h4><p>Explored connecting Claude AI to Power BI through MCP (Model Context Protocol), so the AI could read the semantic model and assist with understanding it and with analytical development.</p></div>
+                <div class="case__row"><h4>Tools</h4><p>Power BI, Claude AI and MCP.</p></div>
+                <div class="case__row"><h4>Solution</h4><p>An AI-supported workflow for exploring semantic models and supporting analytical development in Power BI.</p></div>
+                <div class="case__row"><h4>Outcome</h4><p>Built practical understanding of how AI can support semantic model exploration and analytical development workflows.</p></div>
+              </div>
+            </template>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         9. PROFESSIONAL JOURNEY (timeline)
+         Click a milestone to show more detail.
+         ========================================================= -->
+    <section class="section section--alt" id="journey" data-nav="journey">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-label">Journey</p>
+          <h2 class="section-title">Professional Journey</h2>
+        </div>
+
+        <div class="timeline-wrap" id="timeline">
+        <span class="timeline__track" aria-hidden="true"><span class="timeline__fill" id="timelineFill"></span></span>
+        <ol class="timeline">
+
+          <li class="timeline__item reveal">
+            <span class="timeline__marker" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <button class="timeline__head" type="button" aria-expanded="false">
+                <span class="timeline__year">2022</span>
+                <span class="timeline__title">B.Com — Accounting &amp; Finance</span>
+                <span class="timeline__plus" aria-hidden="true"></span>
+              </button>
+              <div class="timeline__detail"><div><p>Foundation in accounting, finance and business fundamentals.</p></div></div>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__marker" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <button class="timeline__head" type="button" aria-expanded="false">
+                <span class="timeline__year">2024</span>
+                <span class="timeline__title">MBA — Logistics &amp; Supply Chain Management</span>
+                <span class="timeline__plus" aria-hidden="true"></span>
+              </button>
+              <div class="timeline__detail"><div><p>Anna University. Focus on logistics, supply chain, operations and business analytics.</p></div></div>
+            </div>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__marker" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <button class="timeline__head" type="button" aria-expanded="false">
+                <span class="timeline__year">Freight Systems</span>
+                <span class="timeline__title">Management Trainee → Business / Data Analytics</span>
+                <span class="timeline__plus" aria-hidden="true"></span>
+              </button>
+              <div class="timeline__detail"><div><p>Started as a Management Trainee and moved into business and data analytics within the freight forwarding environment.</p></div></div>
+            </div>
+          </li>
+
+          <li class="timeline__item timeline__item--now reveal">
+            <span class="timeline__marker" aria-hidden="true"></span>
+            <div class="timeline__card">
+              <button class="timeline__head" type="button" aria-expanded="false">
+                <span class="timeline__year">Today</span>
+                <span class="timeline__title">AI-Enabled Data &amp; Business Analytics</span>
+                <span class="timeline__plus" aria-hidden="true"></span>
+              </button>
+              <div class="timeline__detail"><div>
+                <ul class="chips">
+                  <li>AI-Enabled Data Analytics</li><li>Business Analytics</li><li>Sales Analytics</li><li>Supply Chain &amp; Logistics Analytics</li>
+                </ul>
+              </div></div>
+            </div>
+          </li>
+        </ol>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         10. EDUCATION  +  11. COURSES & LEARNING
+         ========================================================= -->
+    <section class="section" id="education" data-nav="journey">
+      <div class="container">
+        <div class="learn">
+          <div>
+            <div class="section-head reveal">
+              <p class="section-label">Education</p>
+              <h2 class="section-title">Education</h2>
+            </div>
+            <div class="stack">
+              <article class="edu reveal" data-tilt>
+                <span class="edu__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg></span>
+                <div>
+                  <h3>MBA — Logistics &amp; Supply Chain Management</h3>
+                  <p class="edu__org">Anna University</p>
+                  <p class="edu__focus">Logistics • Supply Chain • Operations • Business Analytics</p>
+                </div>
+              </article>
+              <article class="edu reveal" data-tilt style="--delay:.08s">
+                <span class="edu__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg></span>
+                <div>
+                  <h3>B.Com — Accounting &amp; Finance</h3>
+                  <p class="edu__focus">Accounting • Finance • Business Fundamentals</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div id="courses">
+            <div class="section-head reveal">
+              <p class="section-label">Courses &amp; Learning</p>
+              <h2 class="section-title">Courses &amp; Learning</h2>
+            </div>
+            <div class="stack">
+              <article class="edu edu--course reveal" data-tilt>
+                <span class="edu__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H4zM8 20h8M12 16v4"/><path d="M8 12l2-3 2 2 3-4"/></svg></span>
+                <div>
+                  <span class="edu__tag">Course</span>
+                  <h3>Data Analytics with AI</h3>
+                  <p class="edu__focus">Data Analytics • AI-Assisted Analysis • Business Insights</p>
+                </div>
+              </article>
+              <article class="edu edu--course reveal" data-tilt style="--delay:.08s">
+                <span class="edu__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v12H8l-4 3z"/><path d="M8 10h8M8 13h5"/></svg></span>
+                <div>
+                  <span class="edu__tag">Course</span>
+                  <h3>AI Prompt Engineering</h3>
+                  <p class="edu__focus">Prompt Design • AI-Assisted Problem Solving • Generative AI Workflows</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         12. CURRENTLY EXPLORING
+         ========================================================= -->
+    <section class="section section--alt" id="exploring" data-nav="journey">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="section-label">Now</p>
+          <h2 class="section-title">Currently Exploring</h2>
+        </div>
+        <div class="explore">
+          <article class="explore__card reveal" data-tilt>
+            <span class="explore__tag"><span class="pulse pulse--blue"></span>Exploring</span>
+            <h3>AI + Data Analytics</h3>
+            <p>Exploring how AI can improve data analysis, reporting, coding, and business decision-making.</p>
+          </article>
+          <article class="explore__card reveal" data-tilt style="--delay:.06s">
+            <span class="explore__tag"><span class="pulse pulse--blue"></span>Exploring</span>
+            <h3>AI + Power BI</h3>
+            <p>Exploring AI-assisted approaches to Power BI development, semantic models, DAX, and analytical workflows.</p>
+          </article>
+          <article class="explore__card reveal" data-tilt style="--delay:.12s">
+            <span class="explore__tag"><span class="pulse pulse--blue"></span>Learning</span>
+            <h3>AI + SQL &amp; Python</h3>
+            <p>Using AI assistance to learn and develop practical SQL and Python-based data analysis workflows.</p>
+          </article>
+          <article class="explore__card reveal" data-tilt style="--delay:.18s">
+            <span class="explore__tag"><span class="pulse pulse--blue"></span>Applying</span>
+            <h3>Automation</h3>
+            <p>Applying Power Automate and AI-assisted approaches to reduce repetitive reporting and business processes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =========================================================
+         13. CONTACT
+         ========================================================= -->
+    <section class="section section--navy contact" id="contact" data-nav="contact">
+      <div class="container contact__inner">
+        <div class="contact__intro reveal">
+          <p class="section-label section-label--light">Contact</p>
+          <h2 class="section-title">Let's Connect</h2>
+          <p>Interested in data analytics, business analytics, AI-enabled workflows, or supply chain and logistics analytics? Let's connect.</p>
+        </div>
+
+        <div class="contact__cards">
+          <div class="ccard reveal" style="--delay:.04s">
+            <a class="ccard__link" href="mailto:mahathirmohammed888@gmail.com">
+              <span class="ccard__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <span class="ccard__text"><span class="ccard__label">Email</span><span class="ccard__value">mahathirmohammed888@gmail.com</span></span>
+            </a>
+            <button class="ccard__copy" type="button" data-copy="mahathirmohammed888@gmail.com" aria-label="Copy email address">Copy</button>
+          </div>
+
+          <div class="ccard reveal" style="--delay:.1s">
+            <a class="ccard__link" href="tel:+917639996572">
+              <span class="ccard__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+              <span class="ccard__text"><span class="ccard__label">Phone</span><span class="ccard__value">+91 7639996572</span></span>
+            </a>
+          </div>
+
+          <div class="ccard reveal" style="--delay:.16s">
+            <a class="ccard__link" href="https://www.linkedin.com/in/mahathir-mohamed-a-a57871268/" target="_blank" rel="noopener noreferrer">
+              <span class="ccard__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></span>
+              <span class="ccard__text"><span class="ccard__label">LinkedIn</span><span class="ccard__value">mahathir-mohamed</span></span>
+            </a>
+          </div>
+
+          <!-- GitHub placeholder: when you have your profile, replace this whole <div> with one like the LinkedIn card above,
+               using href="https://github.com/YOUR-USERNAME" -->
+          <div class="ccard ccard--soon reveal" style="--delay:.22s">
+            <span class="ccard__link" aria-disabled="true">
+              <span class="ccard__icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
+              <span class="ccard__text"><span class="ccard__label">GitHub</span><span class="ccard__value">Profile coming soon</span></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- =========================================================
+       14. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__name">Mahathir Mohamed</p>
+        <p class="footer__role">AI-Enabled Data Analyst / Business Analyst</p>
+      </div>
+      <p class="footer__tagline">Data • Business • AI • Analytics</p>
+      <p class="footer__copy">© 2026 Mahathir Mohamed</p>
+    </div>
+  </footer>
+
+
+  <!-- ===== Case study popup (modal). Filled in by JavaScript. ===== -->
+  <div class="modal" id="caseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close case study">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+</body>
+</html>
